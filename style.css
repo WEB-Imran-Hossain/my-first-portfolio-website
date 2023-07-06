@@ -1,5 +1,38 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+/* This is nav ber section here */
+
+.container{
+    background-color: #2c2b2b;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-img{
+    width: 130px;
+    cursor: pointer;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu-item{
+    margin-right: 15px;
+    padding-right: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.menu-item:hover{
+    color: #FF0000;
 }
