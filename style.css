@@ -3,10 +3,10 @@
     padding: 0;
 }
 
-/* This is nav ber section here */
+/* nav ber section start */
 
-.container{
-    background-color: #2c2b2b;
+#container{
+    background-color: #1b1b1b;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -31,8 +31,54 @@
     font-size: 18px;
     text-transform: capitalize;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 .menu-item:hover{
     color: #FF0000;
 }
+
+/* nav ber section end */
+
+/* hero section start */
+
+.banner-photo{
+    width: 350px;
+}
+
+#banner-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 100vh;
+    color: #fff;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#2e2d2d, #242222);
+}
+
+.title{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    padding: 15px 30px;
+    border: none;
+    background-color: #FF0000;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #FF0000;
+}
+
+/* hero section end */
