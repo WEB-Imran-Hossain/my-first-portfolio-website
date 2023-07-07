@@ -91,7 +91,7 @@
 /* about section start */
 #about-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .about-title{
@@ -116,7 +116,7 @@
 
 /* about section end */
 
-/* card section start */
+/* box section start */
 
 .service-title{
     font-size: 60px;
@@ -126,10 +126,11 @@
 }
 
 #service-container{
-    background-image: url("./images/background.png"), linear-gradient(45deg,#2e2d2d, #242222);
+    background-image: url("./images/background.png"), linear-gradient(#2e2d2d, #242222);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 100vh;
 }
 
 .box{
@@ -137,9 +138,8 @@
     height:300px;
     box-shadow: 4px 4px 15px gray;
     background-color: #000;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
-    margin: 40px;
     color: #fff;
 }
 
@@ -171,4 +171,43 @@
     background-color: #FF0000;
     color: #fff;
     border-radius: none;
+}
+
+/* box section end */
+
+/* footer section start */
+
+#footer-container{
+    background-color: #1a1919;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+.menu-link, a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-heading{
+    font-size: 20px;
+}
+
+.footer-details{
+font-size: 16px;
+margin-top: 10px;
+}
+
+.menu-link{
+    margin-top: 10px;
+}
+
+.copyright__text{
+    background-color: #1a1919;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
