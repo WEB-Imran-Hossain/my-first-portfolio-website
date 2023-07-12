@@ -177,13 +177,17 @@
 
 /* footer section start */
 
+.container{
+    background-color: #1a1919;
+}
+
 #footer-container{
     background-color: #1a1919;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 70vh;
+    height: 35vh;
 }
 
 .menu-link, a{
@@ -205,9 +209,16 @@ margin-top: 10px;
     margin-top: 10px;
 }
 
-.copyright__text{
-    background-color: #1a1919;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+.line-bar{
+    width: 80%;
+    margin: auto;
+    border-bottom: 0px solid #FFF;
 }
+
+.copy-text{
+    background-color: #1a1919;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0px 35px 0px;
+}
+/* footer section end */
